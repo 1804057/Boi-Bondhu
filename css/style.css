@@ -283,6 +283,7 @@ section{
     color:var(--black);
     cursor: pointer;
 }
+
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -297,10 +298,11 @@ section{
     text-transform: lowercase;
     
 }
-  div.container {
+div.container {
     text-align: center;
-  }
-  #contributor {
+}
+
+#contributor {
     float:left; 
     background:white;
     padding: 5%;
