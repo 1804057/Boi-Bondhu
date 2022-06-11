@@ -31,40 +31,116 @@
             </div>
     
         </div>
-
-
         <div class="header-2">
             <nav class="navbar">
                 <a href="#home">home</a>
                 <a href="#catagory">catagory</a>
                 <a href="#aboutus">about Us</a>
+                <a href="#login">login</a>
                 <a href="#blogs">blogs</a>
             </nav>
         </div>
     
     </header>
-    <div class="login-form-container">
+    
+<!-- bottom navbar  -->
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
 
    
-        <div id="close-login-btn" class="fas fa-times"></div>
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
     
-        <form action="">
-            <h3>sign in</h3>
-            <span>username</span>
-            <input type="email" name="" class="box" placeholder="enter your email" id="">
-            <span>password</span>
-            <input type="password" name="" class="box" placeholder="enter your password" id="">
-            <div class="checkbox">
-                <input type="checkbox" name="" id="remember-me">
-                <label for="remember-me"> remember me</label>
-            </div>
-            <input type="submit" value="sign in" class="btn">
-            <p>forget password ? <a href="#">click here</a></p>
-            <p>don't have an account ? <a href="#">create one</a></p>
-        </form>
-       
+</div>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Chittagong"> <i class="fas fa-map-marker-alt"></i> Chittagong </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="http://127.0.0.1:5500/index.html#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+             <i class="fas fa-phone"></i> 01996400496 </a>
+             <i class="fas fa-envelope"></i> u1804055@studet.cuet.ac.bd </a><br>
+             <i class="fas fa-phone"></i> 01839645766 </a>
+             <i class="fas fa-envelope"></i> u1804056@student.cuet.ac.bd </a><br>
+             <i class="fas fa-phone"></i> 01705982950 </a>
+             <i class="fas fa-envelope"></i> u1804057@student.cuet.ac.bd </a><br>
+        </div>
+        
     </div>
 
-    <script src="js/script.js"></script>
+    <div class="share">
+        <br>
+        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+        <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+        <a href="https://www.pinterest.com/" class="fab fa-pinterest"></a>
+    </div>
+    <h3>created by </h3>
+    <div class="credit"> 
+        <div id="contributor">
+            <img src="image/adib.png" alt="Adib" width="100">
+            <div class="container">
+            Ashfaqur Rahman Adib
+            </div>
+        </div>
+        <div id="contributor">
+            <img src="image/siam.png" alt="Siam" width="100">
+            <div class="container">
+            Tahil Abrar
+            </div>
+        </div>
+        <div id="contributor">
+            <img src="image/meem.png" alt="Meem" width="100">
+            <div class="container">
+             Zerin Shaima Meem
+            </div>
+        </div>
+    </div>
+        
+</section>
+
+<!-- footer section ends -->
+<script src="js/script.js"></script>
 </body>
 </html>
